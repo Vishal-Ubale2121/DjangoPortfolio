@@ -131,4 +131,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10240
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
-CSRF_TRUSTED_ORIGINS = ['https://greenflagdev.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://my-portfolio-cv.azurewebsites.net']
